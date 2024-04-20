@@ -1,0 +1,48 @@
+.search {
+  margin-bottom: 2rem;
+}
+
+.search__group--input {
+  margin-bottom: 0.4375rem;
+}
+
+.search__group--checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -ms-flex-align: center;
+
+  gap: 0.3125rem;
+}
+
+.search__label-input {
+  display: block;
+
+  margin-bottom: 0.5rem;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  text-align: left;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.search__label-checkbox {
+  padding: 0.8rem 0.3rem;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  color: #ffffff;
+
+  font-size: 0.8rem;
+}
+
+
+

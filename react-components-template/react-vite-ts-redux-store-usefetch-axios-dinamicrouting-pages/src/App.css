@@ -1,0 +1,35 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.navlink {
+  padding: 20px 30px;
+  border: 2px solid transparent;
+  
+}
+
+.active {
+  color:rgb(133, 79, 184);
+  border-radius: 20px;
+  border-left: 2px solid rgb(133, 79, 184); 
+  border-bottom: 2px solid rgb(133, 79, 184); 
+  background-color: rgb(211, 188, 231);
+}
+
+.error {
+  font-size: 18px;
+  color: #990000;
+}

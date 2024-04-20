@@ -1,0 +1,44 @@
+.form {
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+}
+
+.formGroup {
+  margin-bottom: 2rem;
+  font-size: 20px;
+}
+
+.label {
+  display: block;
+  text-align: left;
+  font-size: 20px;
+}
+
+.input {
+  padding: 20px 15px;
+  font-size: inherit;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.errorMessage {
+  color: #990000;
+}
+
+.btn {
+  background-color: #4850b4;
+  color: #fff;
+  padding: 20px; 
+  width: 100%;
+  border-radius: 15px;
+  border: 2px solid #4850b4;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all .4s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #4850b4;
+}

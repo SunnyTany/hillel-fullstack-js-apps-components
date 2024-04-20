@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.containerFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.w200 {
+  max-width: 200px;
+}
+
+.navLink {
+  font-size: 20px;
+  text-decoration: none;
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+}
+
+.navLink.active {
+  border-bottom: 2px solid #333;
+  border-right:  2px solid #333;
+}
+
+nav {
+  margin: 40px 0;
+}

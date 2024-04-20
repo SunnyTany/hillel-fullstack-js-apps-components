@@ -1,0 +1,17 @@
+.startMessage {
+  position: absolute;
+  bottom: 3rem;
+  left: 0;
+  right: 0;
+  max-width: 60%;
+  color: #cbce10;
+  font-size: 2.6rem;
+  text-shadow: 0.125rem 0.125rem 0.5rem #000000;
+  letter-spacing: 0.125rem;
+  text-align: center;
+  margin: 15rem auto;
+
+  @media (max-width: 768px) {
+    font-size: 1.6rem;
+  }
+}

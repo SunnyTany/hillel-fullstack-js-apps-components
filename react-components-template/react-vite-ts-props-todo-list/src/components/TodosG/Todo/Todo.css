@@ -1,0 +1,65 @@
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #c6d6e9;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.todo--completed {
+  background-color: #e2d9d9;
+  color: #ccc;
+}
+
+.todoGroup {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.todoId {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.todoIcon {
+  font-size: 24px;
+  color:rgb(84, 114, 194);
+}
+
+.todoTitle {
+  font-size: 18px;
+}
+
+.todoCompleted {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.todoDeleteBtn {
+  font-size: 18px;
+  font-weight: bold;
+  color:rgb(27, 57, 97);
+  transition: 0.5s;
+}
+
+.todoDeleteBtn:hover {
+  transform: scale(1.8);
+  color:rgb(97, 27, 27);
+}
+
+.todoCheckBtn {
+  font-size: 18px;
+  font-weight: bold;
+  color:rgb(27, 57, 97);
+  transition: all 0.5s;
+}
+
+.todoCheckBtn:hover {
+  transform: scale(2);
+  color:green;
+}

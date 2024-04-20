@@ -1,0 +1,18 @@
+.myHeader {
+  display: flex;
+  flex-direction: row !important;
+  padding: 20px;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.logo {
+  flex-grow: 1;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+}

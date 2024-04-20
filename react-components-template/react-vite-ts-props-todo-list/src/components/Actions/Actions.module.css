@@ -1,0 +1,12 @@
+.actionsWrap {
+  margin: 20px 0;
+  display: flex;
+  gap: 30px;
+}
+
+.actionBtn {
+  font-size: 28px;
+  margin: 45px;
+  padding: 25px;
+}
+

@@ -1,0 +1,8 @@
+.todos {
+  width: 1000px;
+}
+
+.todosEmpty {
+  color: #342f6e;
+  text-align: center;
+}
